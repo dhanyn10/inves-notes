@@ -1,1 +1,1 @@
-hello
+hello, <a href="{{route('login')}}">login</a> yuk
