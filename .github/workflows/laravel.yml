@@ -13,7 +13,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Copy .env
+    - name: hapus file env saat ini, gunakan env khusus test
+      run: rm .env
+    - name: copy file env.ci ke file env baru
       run: php -r "file_exists('.env') || copy('.env.ci', '.env');"
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
