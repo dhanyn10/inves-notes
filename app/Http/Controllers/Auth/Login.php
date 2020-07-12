@@ -32,7 +32,7 @@ class Login extends Controller
                 session([
                     'email'    => $email
                     ]);
-                return redirect()->route('dashboard');
+                return redirect()->route('user.dashboard');
             }
             else
             {
