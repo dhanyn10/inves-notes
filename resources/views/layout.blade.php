@@ -12,8 +12,16 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container">
-            @yield('konten')
+        @include('navbar')
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    @include('sidebar')
+                </div>
+                <div class="col-md-9">
+                    @yield('konten')
+                </div>
+            </div>
         </div>
     </body>
 </html>
