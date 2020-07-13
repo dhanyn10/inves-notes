@@ -1,4 +1,4 @@
-name: Laravel
+name: db migration dan seed
 
 on:
   push:
@@ -31,8 +31,3 @@ jobs:
       run: php artisan migrate
     - name: menjalankan seeder
       run: php artisan db:seed
-    - name: Execute tests (Unit and Feature tests) via PHPUnit
-      env:
-        DB_CONNECTION: sqlite
-        DB_DATABASE: database/database.sqlite
-      run: vendor/bin/phpunit
