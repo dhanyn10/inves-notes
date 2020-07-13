@@ -5,17 +5,10 @@
             <div class="card">
                 <div class="card-header bg-success text-white">Pendapatan</div>
                 <div class="card-body">
-                    <form method="post">
-                        <div class="form-group">
-                            <input
-                                class="form-control form-control-sm"
-                                type="number"
-                                name="pendapatan"
-                                dir="rtl"
-                                required
-                            >
-                        </div>
-                    </form>
+                    belum ada data
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-success">Tambah</button>
                 </div>
             </div>
         </div>
@@ -23,17 +16,10 @@
             <div class="card">
                 <div class="card-header bg-danger text-white">Pengeluaran</div>
                 <div class="card-body">
-                    <form method="post">
-                        <div class="form-group">
-                            <input
-                                class="form-control form-control-sm"
-                                type="number"
-                                name="pengeluaran"
-                                dir="rtl"
-                                required
-                            >
-                        </div>
-                    </form>
+                    belum ada data
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger">Tambah</button>
                 </div>
             </div>
         </div>
