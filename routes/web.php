@@ -13,6 +13,8 @@ Route::group([
     Route::get('pendapatan', 'Keuangan\Pendapatan@index')->name('pendapatan');
     Route::get('pribadi', 'Pribadi@index')->name('pribadi');
     Route::get('keuangan', 'Keuangan@index')->name('keuangan');
+
+    Route::post('/tambahPendapatan', 'Keuangan\Pendapatan@tambah');
 });
 
 
